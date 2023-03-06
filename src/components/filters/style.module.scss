@@ -1,0 +1,60 @@
+.dropdowm_Label {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(173, 169, 169);
+  color: rgb(173, 169, 169);
+  font-size: 18px;
+  cursor: pointer;
+
+  &:hover{
+    color: black;
+  }
+
+  svg {
+    transition: 0.5s;
+  }
+
+  .rotate_Icon {
+    transform: rotate(180deg);
+  }
+}
+
+.list {
+  padding-left: 0;
+  margin: 0;
+  li {
+    padding: 8px 18px;
+    font-weight: 500;
+    list-style: none;
+    color: rgb(173, 169, 169);
+    cursor: pointer;
+  }
+}
+
+.serach_Box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  margin-bottom: 15px;
+
+  input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  button {
+    padding: 10px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    svg {
+      color: white;
+      font-size: 18px;
+    }
+  }
+}

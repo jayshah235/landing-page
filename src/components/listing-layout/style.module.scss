@@ -1,0 +1,27 @@
+.dataItems_Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  p {
+    margin: 0;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 20px;
+  }
+
+  .pricing {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .light_Text {
+    color: #707070;
+  }
+  .timer {
+    font-size: 15px;
+    color: #f40000;
+  }
+}

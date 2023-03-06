@@ -1,0 +1,40 @@
+.sort_items {
+	color: #007aff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 3px;
+	font-size: 20px;
+	position: relative;
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+.sort_Dropdowm_Items {
+	position: absolute;
+	top: 32px;
+	width: max-content;
+	background: white;
+	color: black;
+	border: 1px solid #b5b5b5;
+	border-radius: 4px;
+	right: -8px;
+	z-index: 3;
+	padding: 10px;
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+
+		li {
+			font-size: 16px;
+			font-weight: 400;
+			padding: 5px;
+			display: flex;
+			align-items: center;
+			gap: 6px;
+		}
+	}
+}
